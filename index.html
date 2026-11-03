@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geni Studio — Dress Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 { color: #333; }
+        p { color: #666; }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 200px;
+            padding: 15px;
+        }
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin: 10px 0 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Geni Studio — Dress Library</h1>
+    <p>روایتی لباس کی لائبریری</p>
+
+    <div class="gallery" id="dress-gallery">
+        <!-- Sample Dress Card 1 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/200x250?text=Men+Kurta" alt="Men Kurta">
+            <h3>Men Kurta</h3>
+        </div>
+        <!-- Sample Dress Card 2 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/200x250?text=Women+Frock" alt="Women Frock">
+            <h3>Women Frock</h3>
+        </div>
+    </div>
+
+</body>
+</html>
